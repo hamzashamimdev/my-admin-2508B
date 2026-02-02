@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chipa Saab</title>
+
+    <style>
+        body {
+            text-align: center;
+            background: #111;
+            padding-top: 40px;
+        }
+
+        /* Funny image animation */
+        img {
+            width: 250px;
+            animation: funnyMove 1.2s infinite ease-in-out;
+        }
+
+        @keyframes funnyMove {
+            0% {
+                transform: rotate(0deg) translateY(0);
+            }
+            25% {
+                transform: rotate(5deg) translateY(-10px);
+            }
+            50% {
+                transform: rotate(-5deg) translateY(0);
+            }
+            75% {
+                transform: rotate(5deg) translateY(-10px);
+            }
+            100% {
+                transform: rotate(0deg) translateY(0);
+            }
+        }
+
+        /* Text color animation */
+        h1 {
+            font-size: 40px;
+            animation: colorChange 1s infinite alternate;
+        }
+
+        @keyframes colorChange {
+            from {
+                color: green;
+            }
+            to {
+                color: white;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTmA1VMIpyeLLm2PJjrrCXvA8_Ru1Xnubgsi-kyQGKOgacPZXG79yzqk8F6zR6J9KYzfG80yvwJrjeIbd-o3i68iYDGLiW0UI2fdOZLPQv6Q&s=10" alt="">
+    <h1>Chipa saab</h1>
+</body>
+</html>
